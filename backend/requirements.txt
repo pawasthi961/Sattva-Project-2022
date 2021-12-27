@@ -1,5 +1,7 @@
 Flask == 2.0.2
 pymongo == 4.0.1
+flask_pymongo == 2.0.1
 passlib == 1.7.4
-tweepy == 
+tweepy == 3.1.1
 asyncio == 3.4.3
+pymongo[srv] == 2.1.0

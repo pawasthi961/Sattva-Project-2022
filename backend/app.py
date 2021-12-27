@@ -55,7 +55,7 @@ async def run_app():
     app.run(debug = True)
 
 async def main():
-    await asyncio.gather(run_app(),tweet_listener())
+    await asyncio.gather(run_app())
 
 if __name__ == "__main__":
     app.run(debug=True)
